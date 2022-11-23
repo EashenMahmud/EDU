@@ -1,0 +1,422 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgb(4,9,30,0.7),rgb(4,9,30,0.7)),url(../image/banner.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.ps-10{
+  padding-left: 6rem;
+}
+.logo img{
+  width: 113px;
+
+}
+.c-mr-0{
+  margin-right: 0px;
+}
+.menu ul li{
+  padding-right: 30px;
+}
+.menu ul li a{
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.active, .menu ul li:hover a{
+  color: coral !important;
+  }
+.menu ul li::after{
+  content: " ";
+  width: 0%;
+  height: 2px;
+  margin: auto;
+  background-color: #0dcaf0;
+  display: block;
+  transition: 0.5s;
+}
+.menu ul li:hover::after{
+  width: 70%;
+}
+.text-box{
+  width: 90%;
+  color: white;
+  position: relative;
+  top: 100%;
+  left: 5%;
+  text-align: center;
+}
+.text-box h1{
+  font-size: 62px;
+  font-weight: 600;
+}
+.text-box p{
+  font-size: 14px;
+  margin: 30px 10px;
+}
+.text-box a{
+  color: white;
+  padding: 12px 33px;
+}
+.main-btn{
+  border: 1px solid white;
+  border-radius: 0;
+  transition: 1s;
+}
+.main-btn:hover{
+  background-color: #6c757d;
+  border: 1px solid #6c757d;
+}
+.course {
+  margin: 80px 135px;
+  text-align: center;
+}
+.course p{
+  font-size: 15px;
+  color: #5c636a;
+}
+.course h1{
+  font-weight: 700;
+}
+.course-content{
+  padding: 9px;
+  text-align: justify;
+  background-color: papayawhip;
+}
+.course-content h5{
+  text-align: center;
+}
+.course-content p{
+  margin-top: 15px;
+}
+.course-content:hover{
+  box-shadow: 0px 0px 20px #c6c7c8;
+  transition: 0.5s;
+}
+.campus-content img{
+  width: 100%;
+  border-radius: 8px;
+}
+.campus-content{
+  position: relative;
+}
+.layer{
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+  opacity: 0.5;
+  transition: 0.5s;
+  border-radius: 8px;
+}
+.layer-content h3{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  text-transform: uppercase;
+  transition: 0.9s;
+  color: white;
+}
+.campus-content:hover .layer-content h3{
+  opacity: 2;
+  bottom: 50%;
+}
+.campus-content:hover .layer{
+  background-color: coral;
+}
+.facilities{
+  padding: 0 135px;
+}
+.facilities-text{
+  text-align: center;
+}
+.facilities-text p{
+  font-size: 14px;
+  color: #5c636a;
+}
+.facilities-text h1{
+  font-weight: 600;
+}
+.facilities-content{
+  border: none;
+}
+.facilities img{
+  border-radius: 8px;
+}
+.facilities-content-body{
+  padding: 0px;
+}
+.facilities-content-body h6{
+  font-size: 22px;
+  margin: 30px 0px 10px;
+  font-weight: 600;
+}
+.facilities-content-body p{
+  font-size: 14px;
+  color: #5c636a;
+  text-align: justify;
+}
+.review{
+  padding: 0 135px;
+  text-align: center;
+}
+.review-text h1{
+  font-weight: 600;
+}
+.review-text p{
+  font-size: 14px;
+  color: #5c636a;
+}
+.review-content{
+  background-color: #e5e5e5;
+  padding: 25px;
+  margin-top: 25px;
+}
+.review-content img{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.review-content p,h3,.star{
+  text-align: justify;
+}
+.pb-50{
+  padding-bottom: 24px;
+}
+.cta{
+  text-align: center;
+  min-height: 60vh;
+  width: 100%;
+  border-radius: 8px;
+  background-image: linear-gradient(rgb(4,9,30,0.7),rgb(4,9,30,0.7)),url(../image/banner1.png);
+  background-position: center;
+  background-size: cover;
+}
+.cta-content{
+  margin-top: 80px;
+}
+.cta-content h1{
+  color: white;
+  font-weight: 600;
+}
+.cta-content a{
+  color: white;
+}
+.about{
+  padding: 0 135px;
+  text-align: center;
+  margin-top: 50px;
+}
+.about-content{
+  font-size: 14px;
+  color: #5c636a;
+}
+.banner{
+  min-height: 60vh;
+  width: 100%;
+  background-image: linear-gradient(rgb(4,9,30,0.7),rgb(4,9,30,0.7)),url(../image/background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.banner h1{
+  font-size: 40px;
+  margin-top: 15px;
+}
+.platform{
+  padding: 0px 135px;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+.p-content h1{
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.p-content p{
+  font-size: 14px;
+  text-align: justify;
+  color: #5c636a;
+}
+.p-content .main-btn{
+  border: 1px solid #e5c7ca;
+}
+.blog{
+  padding: 0px 135px;
+  margin-top: 100px;
+}
+.b-content h3{
+  font-size: 25px;
+  font-weight: 600;
+  margin: 25px 0px;
+}
+.b-content p{
+  font-size: 14px;
+  color: #5c636a;
+  text-align: justify;
+}
+.h-category{
+  background-color: coral;
+  margin-bottom: 25px;
+}
+.h-category h4{
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.s-category{
+  margin-top: 10px;
+}
+.s-category .col-md-3 p{
+  text-align: right;
+}
+.form{
+  padding: 25px;
+  margin-top: 70px;
+}
+.form .input, .textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  background-color: #999999;
+  resize: none;
+}
+.form .input{
+  height: 40px;
+}
+.form .textarea{
+  padding-top: 25px;
+}
+.form .input:focus, .textarea:focus{
+  outline: none;
+  border: 2px solid blue ;
+}
+.form .main-btn{
+  border-color: blue;
+}
+.contact{
+  padding: 0 135px;
+  margin-top: 80px;
+
+}
+.contact .fa-house,.fa-phone,.fa-square-envelope{
+  font-size: 26px;
+  margin-top: 20px;
+  color: gray;
+}
+.contact h4,p{
+  margin-left: 15px;
+  font-weight: 300;
+}
+.form2{
+  padding: 25px;
+  margin-top: 26px;
+}
+.form2 .input, .textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  background-color: #999999;
+  resize: none;
+}
+.form2 .input{
+  height: 52px;
+}
+.form2 .textarea{
+  padding-top: 25px;
+}
+.form2 .input:focus, .textarea:focus{
+  outline: none;
+  border: 2px solid blue ;
+}
+.form2 .main-btn{
+  border-color: blue;
+
+}
+
+
+@media (max-width: 540px){
+  .header {
+    min-height: 50vh;
+  }
+  .text-box{
+    top: -2%;
+  }
+  .text-box h1{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .text-box p{
+    text-align: justify;
+  }
+  .text-box a{
+    padding: 6px 16px;
+  }
+  .logo img{
+    width: 50px;
+
+  }
+  .ps-10{
+    padding-left: 2rem;
+  }
+.menu ul{
+  background-color: darkcyan;
+  position: absolute;
+  z-index: 2;
+  width: 162px;
+  right: -11px;
+}
+.menu ul li a{
+  text-align: justify;
+  padding-left: 30px;
+}
+.menu ul li:last-child{
+  width: 0%;
+}
+.menu button{
+  background-color: white;
+}
+.course{
+  margin: 20px 15px;
+}
+.campus-content img{
+  margin-bottom: 15px;
+}
+.facilities{
+  padding: 0 15px;
+}
+.review{
+  padding: 0 15px;
+}
+.about{
+  padding: 0 15px;
+}
+.platform{
+  padding: 0 15px;
+  margin-top: 50px;
+}
+  .p-content .main-btn{
+    margin: 12px 77px;
+  }
+  .banner{
+    min-height: 33vh;
+  }
+  .blog{
+    padding: 0px 15px;
+  }
+  .contact{
+    padding: 0px 15px;
+  }
+  .contact h4{
+    font-size: 18px;
+  }
+
+}
